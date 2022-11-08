@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  max-width: 23rem;
+  /* border: 1px solid #000; */
+  margin: 10px;
+}
+#bkm-input {
+  min-width: 22em;
+  padding: 5px 3px;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+.btn {
+  border: none;
+  background: #42033f;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.del-btn {
+  background-color: #fff;
+  color: #42033f;
+  border: 1px solid #42033f;
+  display: block;
+  margin-top: 5px;
+}
+.links {
+  margin-top: 10px;
+}
+.link {
+  font-size: 0.8em;
+  color: #42033f;
+  /* border: 1px solid #000; */
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link:first-child {
+  margin-top: 0px;
+}
+.link a {
+  color: #42033f;
+}
+.del-link{
+  margin-right: 1rem;
+  border: 1px solid #000;
+  padding: 1px;
+  cursor: pointer;
+
+}
